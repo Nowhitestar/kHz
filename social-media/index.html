@@ -6,7 +6,7 @@ description:
 <main class="main main--interior">
 
 <section class="hero-parallax js-parallax"
-         style="background-image: url('../assets/img/SocialMedia_Hero2.jpg');">
+         style="background-image: url('{{ site.url }}/assets/img/SocialMedia_Hero2.jpg');">
 
   <div class="hero-parallax__content">
           <h1 class="hero-parallax__title hero-parallax__title--white">
@@ -85,7 +85,7 @@ description:
     </div>
         <!--百度地图容器-->
 
-      <script src="{{ "../assets/js/ditu.js" | prepend: site.baseurl }}"></script>
+      <script src="{{ "{{ site.url }}/assets/js/ditu.js" | prepend: site.baseurl }}"></script>
 
 
 
