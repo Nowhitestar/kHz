@@ -128,7 +128,7 @@ description:
     <div class="cards-slider__wrapper">
       <ul id="slides">
         {% for post in site.posts limit:10 %}{% if post.class == 'news' and post.img  %}
-	<li class="slide" ><div style="background: url('{{post.img}}'); width:100%; height:28rem;-moz-background-size: 100% 28rem;
+	<li class="slide" ><div style="background: url('{{site.url}}/assets/img/{{post.img}}'); width:100%; height:28rem;-moz-background-size: 100% 28rem;
   -webkit-background-size: 100% 28rem;
   -o-background-size: 100% 28rem;
   background-size: 100% 28rem;"></div>
