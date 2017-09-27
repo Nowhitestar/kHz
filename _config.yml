@@ -22,11 +22,11 @@ permalink: "/:categories/:title/"
 # ╰┻╯╰┻━━┻━━┻╯╰╯
 
 index:
-  research_img: {{ site.url }}/assets/img/slide-bg-research.jpg
-  recent_publications_img: {{ site.url }}/assets/img/recent-publications.jpg
-  photorederx_gif: {{ site.url }}/assets/img/PR.gif
-  photorederx_img: {{ site.url }}/assets/img/photorederx_bg-desktop.jpg
-  bio_img: {{ site.url }}/assets/img/bio_bg.jpg
+  research_img: http://bubais.top/kHz/assets/img/slide-bg-research.jpg
+  recent_publications_img: http://bubais.top/kHz/assets/img/recent-publications.jpg
+  photorederx_gif: http://bubais.top/kHz/assets/img/PR.gif
+  photorederx_img: http://bubais.top/kHz/assets/img/photorederx_bg-desktop.jpg
+  bio_img: http://bubais.top/kHz/assets/img/bio_bg.jpg
 
 # 研究内容页面
 # ╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭╮
@@ -37,15 +37,15 @@ index:
 # ╰╯╰━━┻━━┻━━┻╯╰┻╯╰━━┻╯╰╯
 
 research:
-  bg_img: {{ site.url }}/assets/img/research/research-intro-bg.jpg
+  bg_img: http://bubais.top/kHz/assets/img/research/research-intro-bg.jpg
   img:
-    - url: {{ site.url }}/assets/img/research/photoredox-re.svg
-    - url: {{ site.url }}/assets/img/research/totalsynthesis-re.svg
-    - url: {{ site.url }}/assets/img/research/organocatalysis-re.svg
-    - url: {{ site.url }}/assets/img/research/e-protein-re.svg
+    - url: http://bubais.top/kHz/assets/img/research/photoredox-re.svg
+    - url: http://bubais.top/kHz/assets/img/research/totalsynthesis-re.svg
+    - url: http://bubais.top/kHz/assets/img/research/organocatalysis-re.svg
+    - url: http://bubais.top/kHz/assets/img/research/e-protein-re.svg
   photoredox:
-    slide1: {{ site.url }}/assets/img/research/Slider1.svg
-    slide2: {{ site.url }}/assets/img/research//Slider2.png
+    slide1: http://bubais.top/kHz/assets/img/research/Slider1.svg
+    slide2: http://bubais.top/kHz/assets/img/research//Slider2.png
 
 
 # 最近成果页面
@@ -62,9 +62,9 @@ recent_publications:
   publication1:
     person:
       - name: Dr. You Zhang
-        img: {{ site.url }}/assets/img/team/zy.jpg
+        img: http://bubais.top/kHz/assets/img/team/zy.jpg
       - name: Dr. Rufeng Xiao
-        img: {{ site.url }}/assets/img/team/omar.jpg
+        img: http://bubais.top/kHz/assets/img/team/omar.jpg
     journal: Journal of Cleaner Production
     article: Environmental impacts of reclamation and recycling processes of refrigerators using life cycle assessment (LCA) methods
   publication2:
@@ -81,9 +81,9 @@ recent_news:
   new1:
     new:
       - name: title
-        img: {{ site.url }}/assets/img/team/zy.jpg
+        img: http://bubais.top/kHz/assets/img/team/zy.jpg
       - name: Dr. Rufeng Xiao
-        img: {{ site.url }}/assets/img/team/omar.jpg
+        img: http://bubais.top/kHz/assets/img/team/omar.jpg
     title: Journal of Cleaner Production
     abstract: Environmental impacts of reclamation and recycling processes of refrigerators using life cycle assessment (LCA) methods
   publication2:
