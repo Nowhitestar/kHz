@@ -1,0 +1,121 @@
+<!doctype html>
+<!--[if IE 9]><html class="no-js ie9" lang="en-US" prefix="og: http://ogp.me/ns#"><![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns#"><!--<![endif]-->
+
+<head>
+{% include head.html %}
+</head>
+
+<body class="page-template-default page flex flex-column">
+
+{% include navigation.html %}
+<main class="main main--interior members-single">
+
+  <div class="js-members-single-slider members-single-slider__container">
+
+    <div class="members-single-slider__wrapper">
+
+
+
+          <div class="members-single-slider__slide">
+
+                          <img src="../../wp-content/uploads/sites/6/jian-4-391x300.png"
+                   alt=""
+                   class="fadeInInitImage transparent">
+
+          </div>
+
+
+          <div class="members-single-slider__slide">
+
+                          <img src="../../wp-content/uploads/sites/6/jian-3-391x300.png"
+                   alt=""
+                   class="fadeInInitImage transparent">
+
+          </div>
+
+
+          <div class="members-single-slider__slide">
+
+                          <img src="../../wp-content/uploads/sites/6/jian-2-391x300.png"
+                   alt=""
+                   class="fadeInInitImage transparent">
+
+          </div>
+
+
+          <div class="members-single-slider__slide">
+
+                          <img src="../../wp-content/uploads/sites/6/jian-1-391x300.png"
+                   alt=""
+                   class="fadeInInitImage transparent">
+
+          </div>
+
+
+
+    </div>
+
+    <div class="members-single-slider__pagination"></div>
+
+  </div>
+
+  <div class="wrapper">
+    <div class="members-single__content">
+
+      <div class="members-single__sidebar">
+
+        <div class="members-single__photo">
+
+                      <img src="../../wp-content/uploads/sites/6/MacMillanGroup_2037-255x255.jpg" alt="Dr. Jian Jin" />
+
+        </div>
+
+                  <div class="members-single__email" style="text-align: center; margin-top: 2.125rem;">
+            <a class="btn"
+                style="height: 2rem; line-height: 2rem;"
+                href="mailto:jjian@princeton.edu"
+                title="jjian@princeton.edu">
+              <span>Email</span>
+            </a>
+          </div>
+              </div>
+
+      <div class="members-single__description">
+
+        <h2>Dr. Jian Jin</h2>
+
+                            <h4>
+                          <span class="degree">
+                Postdoctoral Scholar,               </span>
+
+            Shanghai Institute of Organic Chemistry,             2017          </h4>
+
+        <div class="divider divider--members"><span></span></div>
+
+       {{ content }}
+
+
+          <h5>Fun Facts</h5>
+
+          <ul>
+            {% for items in post %}
+            <li>{{ post.items }}             </li>
+            {% endfor %}
+                      </ul>
+
+
+      </div>
+
+    </div>
+
+  </div>
+
+</main>
+{% include footer.html %}
+
+
+{% include scripts.html %}
+
+</body>
+</html>

@@ -1,0 +1,163 @@
+---
+# 网站设置
+# ╱╱╱╱╱╱╱╱╭╮╱╱╱╱╱╱╭╮
+# ╱╱╱╱╱╱╱╱┃┃╱╱╱╱╱╭╯╰╮
+# ╭╮╭╮╭┳━━┫╰━┳━━┳╋╮╭╋━━╮
+# ┃╰╯╰╯┃┃━┫╭╮┃━━╋┫┃┃┃┃━┫
+# ╰╮╭╮╭┫┃━┫╰╯┣━━┃┃┃╰┫┃━┫
+# ╱╰╯╰╯╰━━┻━━┻━━┻╯╰━┻━━╯
+
+site_name: 袁增伟教授课题组
+description: 课题组主要从事环境规划与管理研究，致力于人类活动的资源和环境效应评估，为系统调控人类活动和推动区域可持续发展提供决策依据。
+locale: en_CN
+url: http://127.0.0.1:4000
+permalink: "/:categories/:title/"
+
+# 网站主页设置
+# ╱╱╱╱╱╱╭╮
+# ╱╱╱╱╱╱┃┃
+# ╭┳━╮╭━╯┣━━┳╮╭╮
+# ┣┫╭╮┫╭╮┃┃━╋╋╋╯
+# ┃┃┃┃┃╰╯┃┃━╋╋╋╮
+# ╰┻╯╰┻━━┻━━┻╯╰╯
+
+index:
+  research_img: ../assets/img/slide-bg-research.jpg
+  recent_publications_img: ../assets/img/recent-publications.jpg
+  photorederx_gif: ../assets/img/PR.gif
+  photorederx_img: ../assets/img/photorederx_bg-desktop.jpg
+  bio_img: ../assets/img/bio_bg.jpg
+
+# 研究内容页面
+# ╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭╮
+# ╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱┃┃
+# ╭━┳━━┳━━┳━━┳━━┳━┳━━┫╰━╮
+# ┃╭┫┃━┫━━┫┃━┫╭╮┃╭┫╭━┫╭╮┃
+# ┃┃┃┃━╋━━┃┃━┫╭╮┃┃┃╰━┫┃┃┃
+# ╰╯╰━━┻━━┻━━┻╯╰┻╯╰━━┻╯╰╯
+
+research:
+  bg_img: ../assets/img/research/research-intro-bg.jpg
+  img:
+    - url: ../assets/img/research/photoredox-re.svg
+    - url: ../assets/img/research/totalsynthesis-re.svg
+    - url: ../assets/img/research/organocatalysis-re.svg
+    - url: ../assets/img/research/e-protein-re.svg
+  photoredox:
+    slide1: ../assets/img/research/Slider1.svg
+    slide2: ../assets/img/research//Slider2.png
+
+
+# 最近成果页面
+# ╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭╮╱╱╱╱╱╱╱╭╮╱╭╮╱╱╱╱╱╱╱╱╭╮
+# ╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭╯╰╮╱╱╱╱╱╱┃┃╱┃┃╱╱╱╱╱╱╱╭╯╰╮
+# ╭━┳━━┳━━┳━━┳━╮╰╮╭╯╭━━┳╮╭┫╰━┫┃╭┳━━┳━━╋╮╭╋┳━━┳━╮╭━━╮
+# ┃╭┫┃━┫╭━┫┃━┫╭╮╮┃┃╱┃╭╮┃┃┃┃╭╮┃┃┣┫╭━┫╭╮┃┃┃┣┫╭╮┃╭╮┫━━┫
+# ┃┃┃┃━┫╰━┫┃━┫┃┃┃┃╰╮┃╰╯┃╰╯┃╰╯┃╰┫┃╰━┫╭╮┃┃╰┫┃╰╯┃┃┃┣━━┃
+# ╰╯╰━━┻━━┻━━┻╯╰╯╰━╯┃╭━┻━━┻━━┻━┻┻━━┻╯╰╯╰━┻┻━━┻╯╰┻━━╯
+# ╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱┃┃
+# ╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╰╯
+
+recent_publications:
+  publication1:
+    person:
+      - name: Dr. You Zhang
+        img: ../assets/img/team/zy.jpg
+      - name: Dr. Rufeng Xiao
+        img: ../assets/img/team/omar.jpg
+    journal: Journal of Cleaner Production
+    article: Environmental impacts of reclamation and recycling processes of refrigerators using life cycle assessment (LCA) methods
+  publication2:
+    person:
+      - name: Dr. Joseph Badillo
+        img: xx
+      - name: Jeff Lipshultz
+        img: xx
+    journal: Nature Chemistry, AOP
+    article: Catalyst-Controlled Oligomerization for the Collective Synthesis of Polypyrroloindoline Natural Products
+
+
+recent_news:
+  new1:
+    new:
+      - name: title
+        img: ../assets/img/team/zy.jpg
+      - name: Dr. Rufeng Xiao
+        img: ../assets/img/team/omar.jpg
+    title: Journal of Cleaner Production
+    abstract: Environmental impacts of reclamation and recycling processes of refrigerators using life cycle assessment (LCA) methods
+  publication2:
+    person:
+      - name: Dr. Joseph Badillo
+        img: xx
+      - name: Jeff Lipshultz
+        img: xx
+    journal: Nature Chemistry, AOP
+    article: Catalyst-Controlled Oligomerization for the Collective Synthesis of Polypyrroloindoline Natural Products
+
+# 联系方式
+# ╱╱╱╱╱╱╱╱╱╱╭╮╱╱╱╱╱╱╱╭╮
+# ╱╱╱╱╱╱╱╱╱╭╯╰╮╱╱╱╱╱╭╯╰╮
+# ╭━━┳━━┳━╮╰╮╭╋━━┳━━╋╮╭╯
+# ┃╭━┫╭╮┃╭╮╮┃┃┃╭╮┃╭━╯┃┃
+# ┃╰━┫╰╯┃┃┃┃┃╰┫╭╮┃╰━╮┃╰╮
+# ╰━━┻━━┻╯╰╯╰━┻╯╰┻━━╯╰━╯
+
+contact:
+  email: u_stars@foxmail.com
+  twitter:
+  linkedin:
+  google:
+    plus:
+    analytics: UA-86467042-1
+    verify: NlCzhuhsnA69d9jg9WY93BPdsU6DUHf3g7yPbNaWexs
+    ad-client:
+    ad-slot:
+  bing-verify: 61B1FB45A5B82173A73D5CADCAA442C5
+  baidu-verify: bYwXAmjXqp
+
+# 默认设置
+# ╱╱╭╮╱╱╱╭━╮╱╱╱╱╱╭╮╱╭╮
+# ╱╱┃┃╱╱╱┃╭╯╱╱╱╱╱┃┃╭╯╰╮
+# ╭━╯┣━━┳╯╰┳━━┳╮╭┫┃╰╮╭╯
+# ┃╭╮┃┃━╋╮╭┫╭╮┃┃┃┃┃╱┃┃
+# ┃╰╯┃┃━┫┃┃┃╭╮┃╰╯┃╰╮┃╰╮
+# ╰━━┻━━╯╰╯╰╯╰┻━━┻━╯╰━╯
+
+markdown: kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
+kramdown:
+  input: GFM
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..2
+  enable_coderay: false
+mathjax: true
+include:
+- ".htaccess"
+exclude:
+- lib
+- config.rb
+- Capfile
+- config
+- log
+- Rakefile
+- Rakefile.rb
+- tmp
+- ".less"
+- "*.sublime-project"
+- "*.sublime-workspace"
+- test
+- spec
+- Gruntfile.js
+- package.json
+- node_modules
+- Gemfile
+- Gemfile.lock
+- LICENSE
+- README.md
+- vendor
