@@ -1,7 +1,7 @@
 ---
 date: 2016-12-15
 year: 2016
-layout: post
+layout: pub
 title: Life cycle assessment of phosphorus use efficiency in crop production system of three crops in Chaohu Watershed, China
 author: Huijun Wu, Liangmin Gao, Zengwei Yuan* Shun Wang
 author_img: team/yzw.jpg
