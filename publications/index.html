@@ -178,10 +178,455 @@ description:
         </ul>
 
         </div>
+        <div class="publication__category" data-year="2015">
 
+          <div class="publication__heading transparent js-animate-fadeInOnScroll">
+
+            <h2>2015</h2>
+
+            <div class="divider divider--members_former"><span></span></div>
+
+          </div>
+
+          <ul class="publication__category-container">
+
+            {% for post in site.posts %}{% if post.class == 'publications' %}{% if post.year == 2015 %}
+              <li class="publication transparent js-animate-fadeInOnScroll">
+
+                <header class="publication__header-box clearfix">
+                  <div class="publication__header">
+                    <a href="{{ post.link }}" target="_blank">
+                      <div class="publication__doc-container">
+                        <svg class="publication__doc" width="19px" height="25px">
+                          <use xlink:href="#icon-doc"></use>
+                        </svg>
+                      </div>
+                      <h3 class="publication__title">
+                        {{ post.journal }}                  </h3>
+                    </a>
+                  </div>
+                                        <div class="publication__linked-box">
+                        <a class="publication__link" href="{{post.url}}">More</a>
+                      </div>
+                                  </header>
+
+
+                <div class="publication__content-box">
+                  <div class="publication__cover-wrap">
+                    <div class="publication__cover">
+                      <div class="publication__icon">
+                                            </div>
+                      <div class="publication__content">
+                        <p>{{post.title}}</p>
+                        <span class="publication__authors">
+                          {{ post.author }}                      </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="publication__graphics-wrap clearfix">
+                    <div class="publication__graphics">
+                                            <img src="{{site.url}}/assets/img/{{post.content_img}}"
+                             alt="" />
+                                        </div>
+                  </div>
+                </div>
+
+              </li>
+              {% endif %}
+              {% endif %}
+              {% endfor %}
+
+
+
+          </ul>
+
+          </div>
+
+          <div class="publication__category" data-year="2014">
+
+            <div class="publication__heading transparent js-animate-fadeInOnScroll">
+
+              <h2>2014</h2>
+
+              <div class="divider divider--members_former"><span></span></div>
+
+            </div>
+
+            <ul class="publication__category-container">
+
+              {% for post in site.posts %}{% if post.class == 'publications' %}{% if post.year == 2014 %}
+                <li class="publication transparent js-animate-fadeInOnScroll">
+
+                  <header class="publication__header-box clearfix">
+                    <div class="publication__header">
+                      <a href="{{ post.link }}" target="_blank">
+                        <div class="publication__doc-container">
+                          <svg class="publication__doc" width="19px" height="25px">
+                            <use xlink:href="#icon-doc"></use>
+                          </svg>
+                        </div>
+                        <h3 class="publication__title">
+                          {{ post.journal }}                  </h3>
+                      </a>
+                    </div>
+                                          <div class="publication__linked-box">
+                          <a class="publication__link" href="{{post.url}}">More</a>
+                        </div>
+                                    </header>
+
+
+                  <div class="publication__content-box">
+                    <div class="publication__cover-wrap">
+                      <div class="publication__cover">
+                        <div class="publication__icon">
+                                              </div>
+                        <div class="publication__content">
+                          <p>{{post.title}}</p>
+                          <span class="publication__authors">
+                            {{ post.author }}                      </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="publication__graphics-wrap clearfix">
+                      <div class="publication__graphics">
+                                              <img src="{{site.url}}/assets/img/{{post.content_img}}"
+                               alt="" />
+                                          </div>
+                    </div>
+                  </div>
+
+                </li>
+                {% endif %}
+                {% endif %}
+                {% endfor %}
+
+
+
+            </ul>
+
+            </div>
+            <div class="publication__category" data-year="2013">
+
+              <div class="publication__heading transparent js-animate-fadeInOnScroll">
+
+                <h2>2013</h2>
+
+                <div class="divider divider--members_former"><span></span></div>
+
+              </div>
+
+              <ul class="publication__category-container">
+
+                {% for post in site.posts %}{% if post.class == 'publications' %}{% if post.year == 2013 %}
+                  <li class="publication transparent js-animate-fadeInOnScroll">
+
+                    <header class="publication__header-box clearfix">
+                      <div class="publication__header">
+                        <a href="{{ post.link }}" target="_blank">
+                          <div class="publication__doc-container">
+                            <svg class="publication__doc" width="19px" height="25px">
+                              <use xlink:href="#icon-doc"></use>
+                            </svg>
+                          </div>
+                          <h3 class="publication__title">
+                            {{ post.journal }}                  </h3>
+                        </a>
+                      </div>
+                                            <div class="publication__linked-box">
+                            <a class="publication__link" href="{{post.url}}">More</a>
+                          </div>
+                                      </header>
+
+
+                    <div class="publication__content-box">
+                      <div class="publication__cover-wrap">
+                        <div class="publication__cover">
+                          <div class="publication__icon">
+                                                </div>
+                          <div class="publication__content">
+                            <p>{{post.title}}</p>
+                            <span class="publication__authors">
+                              {{ post.author }}                      </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="publication__graphics-wrap clearfix">
+                        <div class="publication__graphics">
+                                                <img src="{{site.url}}/assets/img/{{post.content_img}}"
+                                 alt="" />
+                                            </div>
+                      </div>
+                    </div>
+
+                  </li>
+                  {% endif %}
+                  {% endif %}
+                  {% endfor %}
+
+
+
+              </ul>
+
+              </div>
+
+              <div class="publication__category" data-year="2012">
+
+                <div class="publication__heading transparent js-animate-fadeInOnScroll">
+
+                  <h2>2012</h2>
+
+                  <div class="divider divider--members_former"><span></span></div>
+
+                </div>
+
+                <ul class="publication__category-container">
+
+                  {% for post in site.posts %}{% if post.class == 'publications' %}{% if post.year == 2012 %}
+                    <li class="publication transparent js-animate-fadeInOnScroll">
+
+                      <header class="publication__header-box clearfix">
+                        <div class="publication__header">
+                          <a href="{{ post.link }}" target="_blank">
+                            <div class="publication__doc-container">
+                              <svg class="publication__doc" width="19px" height="25px">
+                                <use xlink:href="#icon-doc"></use>
+                              </svg>
+                            </div>
+                            <h3 class="publication__title">
+                              {{ post.journal }}                  </h3>
+                          </a>
+                        </div>
+                                              <div class="publication__linked-box">
+                              <a class="publication__link" href="{{post.url}}">More</a>
+                            </div>
+                                        </header>
+
+
+                      <div class="publication__content-box">
+                        <div class="publication__cover-wrap">
+                          <div class="publication__cover">
+                            <div class="publication__icon">
+                                                  </div>
+                            <div class="publication__content">
+                              <p>{{post.title}}</p>
+                              <span class="publication__authors">
+                                {{ post.author }}                      </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="publication__graphics-wrap clearfix">
+                          <div class="publication__graphics">
+                                                  <img src="{{site.url}}/assets/img/{{post.content_img}}"
+                                   alt="" />
+                                              </div>
+                        </div>
+                      </div>
+
+                    </li>
+                    {% endif %}
+                    {% endif %}
+                    {% endfor %}
+
+
+
+                </ul>
+
+                </div>
+
+                <div class="publication__category" data-year="2011">
+
+                  <div class="publication__heading transparent js-animate-fadeInOnScroll">
+
+                    <h2>2011</h2>
+
+                    <div class="divider divider--members_former"><span></span></div>
+
+                  </div>
+
+                  <ul class="publication__category-container">
+
+                    {% for post in site.posts %}{% if post.class == 'publications' %}{% if post.year == 2011 %}
+                      <li class="publication transparent js-animate-fadeInOnScroll">
+
+                        <header class="publication__header-box clearfix">
+                          <div class="publication__header">
+                            <a href="{{ post.link }}" target="_blank">
+                              <div class="publication__doc-container">
+                                <svg class="publication__doc" width="19px" height="25px">
+                                  <use xlink:href="#icon-doc"></use>
+                                </svg>
+                              </div>
+                              <h3 class="publication__title">
+                                {{ post.journal }}                  </h3>
+                            </a>
+                          </div>
+                                                <div class="publication__linked-box">
+                                <a class="publication__link" href="{{post.url}}">More</a>
+                              </div>
+                                          </header>
+
+
+                        <div class="publication__content-box">
+                          <div class="publication__cover-wrap">
+                            <div class="publication__cover">
+                              <div class="publication__icon">
+                                                    </div>
+                              <div class="publication__content">
+                                <p>{{post.title}}</p>
+                                <span class="publication__authors">
+                                  {{ post.author }}                      </span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="publication__graphics-wrap clearfix">
+                            <div class="publication__graphics">
+                                                    <img src="{{site.url}}/assets/img/{{post.content_img}}"
+                                     alt="" />
+                                                </div>
+                          </div>
+                        </div>
+
+                      </li>
+                      {% endif %}
+                      {% endif %}
+                      {% endfor %}
+
+
+
+                  </ul>
+
+                  </div>
+
+                  <div class="publication__category" data-year="2010">
+
+                    <div class="publication__heading transparent js-animate-fadeInOnScroll">
+
+                      <h2>2010</h2>
+
+                      <div class="divider divider--members_former"><span></span></div>
+
+                    </div>
+
+                    <ul class="publication__category-container">
+
+                      {% for post in site.posts %}{% if post.class == 'publications' %}{% if post.year == 2010 %}
+                        <li class="publication transparent js-animate-fadeInOnScroll">
+
+                          <header class="publication__header-box clearfix">
+                            <div class="publication__header">
+                              <a href="{{ post.link }}" target="_blank">
+                                <div class="publication__doc-container">
+                                  <svg class="publication__doc" width="19px" height="25px">
+                                    <use xlink:href="#icon-doc"></use>
+                                  </svg>
+                                </div>
+                                <h3 class="publication__title">
+                                  {{ post.journal }}                  </h3>
+                              </a>
+                            </div>
+                                                  <div class="publication__linked-box">
+                                  <a class="publication__link" href="{{post.url}}">More</a>
+                                </div>
+                                            </header>
+
+
+                          <div class="publication__content-box">
+                            <div class="publication__cover-wrap">
+                              <div class="publication__cover">
+                                <div class="publication__icon">
+                                                      </div>
+                                <div class="publication__content">
+                                  <p>{{post.title}}</p>
+                                  <span class="publication__authors">
+                                    {{ post.author }}                      </span>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="publication__graphics-wrap clearfix">
+                              <div class="publication__graphics">
+                                                      <img src="{{site.url}}/assets/img/{{post.content_img}}"
+                                       alt="" />
+                                                  </div>
+                            </div>
+                          </div>
+
+                        </li>
+                        {% endif %}
+                        {% endif %}
+                        {% endfor %}
+
+
+
+                    </ul>
+
+                    </div>
 
 
         </div>
+
+        <div class="publication__category" data-year="2009">
+
+          <div class="publication__heading transparent js-animate-fadeInOnScroll">
+
+            <h2>2009</h2>
+
+            <div class="divider divider--members_former"><span></span></div>
+
+          </div>
+
+          <ul class="publication__category-container">
+
+            {% for post in site.posts %}{% if post.class == 'publications' %}{% if post.year == 2009 %}
+              <li class="publication transparent js-animate-fadeInOnScroll">
+
+                <header class="publication__header-box clearfix">
+                  <div class="publication__header">
+                    <a href="{{ post.link }}" target="_blank">
+                      <div class="publication__doc-container">
+                        <svg class="publication__doc" width="19px" height="25px">
+                          <use xlink:href="#icon-doc"></use>
+                        </svg>
+                      </div>
+                      <h3 class="publication__title">
+                        {{ post.journal }}                  </h3>
+                    </a>
+                  </div>
+                                        <div class="publication__linked-box">
+                        <a class="publication__link" href="{{post.url}}">More</a>
+                      </div>
+                                  </header>
+
+
+                <div class="publication__content-box">
+                  <div class="publication__cover-wrap">
+                    <div class="publication__cover">
+                      <div class="publication__icon">
+                                            </div>
+                      <div class="publication__content">
+                        <p>{{post.title}}</p>
+                        <span class="publication__authors">
+                          {{ post.author }}                      </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="publication__graphics-wrap clearfix">
+                    <div class="publication__graphics">
+                                            <img src="{{site.url}}/assets/img/{{post.content_img}}"
+                             alt="" />
+                                        </div>
+                  </div>
+                </div>
+
+              </li>
+              {% endif %}
+              {% endif %}
+              {% endfor %}
+
+
+
+          </ul>
+
+          </div>
 
 
   </section>
@@ -191,27 +636,38 @@ description:
 
   <div class="wrapper">
 
-    <h2>Book Chapters</h2>
+    <h2>Book</h2>
     <div class="divider divider--numbered-list"><span></span></div>
 
     <ul class="numbered-list__list clearfix">
 
-
-          <li class="numbered-list__list-item">
-            <div class="numbered-list__content" data-list-number="1">
-              Lelais, G.; MacMillan, D. W. C. History and Perspective of Chiral Organic Catalysts. In New Frontiers in Asymmetric Catalysis; K. Mikami, M. Lautens, Eds.; Wiley: Hoboken, New Jersey, 2007; pp 313–358.            </div>
+{% for post in site.posts %}{% if post.class == 'publications_book' %}
+          <li class="numbered-list__list-item" >
+            <div class="numbered-list__content" data-list-number="{{post.number}}" >
+              <a href="{{post.url}}" style="color: black; text-decoration:none;">{{post.author}}. {{post.title}}[M]. {{post.press_loc}}: {{post.press}}, {{post.year}}.</a></div>
           </li>
+{% endif %}{% endfor %}
+    </ul>
 
-          <li class="numbered-list__list-item">
-            <div class="numbered-list__content" data-list-number="2">
-              Lelais, G.; MacMillan, D. W. C. Iminium Catalysis. In Enantioselective Organocatalysis: Reactions and Experimental Procedures; Dalko, P. I., Ed.; Wiley-VCH: Weinheim, 2007; pp 95–120.            </div>
+  </div>
+
+</section>
+
+<section class="numbered-list">
+
+  <div class="wrapper">
+
+    <h2>Software</h2>
+    <div class="divider divider--numbered-list"><span></span></div>
+
+    <ul class="numbered-list__list clearfix">
+
+{% for post in site.posts %}{% if post.class == 'publications_software' %}
+          <li class="numbered-list__list-item" >
+            <div class="numbered-list__content" data-list-number="{{post.number}}" >
+              {{post.author}}. {{post.title}}. 软件著作权, 软著登字第{{post.series}}号.</div>
           </li>
-
-          <li class="numbered-list__list-item">
-            <div class="numbered-list__content" data-list-number="3">
-              Watson A. J. B.; MacMillan, D. W. C. Enantioselective Organocatalysis Involving Iminium, Enamine, SOMO, and Photoredox Activation. In Catalytic Asymmetric Synthesis, 3rd ed.; Ojima, I., Ed.; Wiley: Hoboken, New Jersey, 2010, Chapter 2A, pp 39–57.            </div>
-          </li>
-
+{% endif %}{% endfor %}
     </ul>
 
   </div>

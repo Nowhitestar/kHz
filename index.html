@@ -106,7 +106,7 @@ description:
               <div class="vertical__slide">
 
 <section class="slide-cards slide-section slide-section--cards"
-         style="background-image: url('{{ site.url }}/assets/img/news.jpg'); background-color: #ec9533;">
+         style="background-image: url('{{ site.url }}/assets/img/{{site.index.news_img}}'); background-color: #ec9533;">
 
   <div class="heading">
 
@@ -290,7 +290,7 @@ margin-bottom: 1.3rem;background-image: url('{{news.img}}')"></div>
               <div class="vertical__slide">
 
 <section class="slide-section slide-section--column slide-section--center slide-section--image"
-         style="background-image: url('{{site.index.research_img}}');">
+         style="background-image: url('{{site.url}}/assets/img/{{site.index.research_img}}');">
 
   <div class="slide-section__wrapper slide-section__wrapper--image">
 
@@ -320,7 +320,7 @@ margin-bottom: 1.3rem;background-image: url('{{news.img}}')"></div>
               <div class="vertical__slide">
 
 <section class="slide-cards slide-section slide-section--cards"
-         style="background-image: url('{{site.index.recent_publications_img}}'); background-color: #ec9533;">
+         style="background-image: url('{{site.url}}/assets/img/{{site.index.recent_publications_img}}'); background-color: #ec9533;">
 
   <div class="heading">
 
@@ -358,7 +358,7 @@ margin-bottom: 1.3rem;background-image: url('{{news.img}}')"></div>
             {% for persons in site.recent_publications.publication1.person %}
                     <div class="cards-subslider__slide">
 
-                      <div class="avatar" style="background-image: url('{{persons.img}}')"></div>
+                      <div class="avatar" style="background-image: url('{{site.url}}/assets/img/{{persons.img}}')"></div>
                       <h3>{{persons.name}}</h3>
 
                     </div>
@@ -405,7 +405,7 @@ margin-bottom: 1.3rem;background-image: url('{{news.img}}')"></div>
 
                   <div class="cards-subslider__slide">
 
-                    <div class="avatar" style="background-image: url('{{member.img}}')"></div>
+                    <div class="avatar" style="background-image: url('{{site.url}}/assets/img/{{member.img}}')"></div>
                     <h3>{{member.name}}</h3>
 
                   </div>
@@ -473,12 +473,12 @@ margin-bottom: 1.3rem;background-image: url('{{news.img}}')"></div>
   </div>
 
   <div class="video-container"
-       style="background-image: url('{{site.index.photorederx_gif}}');">
+       style="background-image: url('{{site.url}}/assets/img/{{site.index.photorederx_gif}}');">
 
     <video autoplay=""
            loop=""
            preload=""
-           poster="{{site.index.photorederx_img}}"
+           poster="{{site.url}}/assets/img/{{site.index.photorederx_img}}"
            title="poster">
 
               <source src="" type="video/webm">
@@ -503,7 +503,7 @@ margin-bottom: 1.3rem;background-image: url('{{news.img}}')"></div>
 
           <div class="collage__col collage__col--middle js-animate-fadeInOnSlide transparent">
         <img class="collage__image"
-          src="{{site.index.bio_img}}"
+          src="{{site.url}}/assets/img/{{site.index.bio_img}}"
           alt="">
       </div>
 

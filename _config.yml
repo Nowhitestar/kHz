@@ -22,11 +22,12 @@ permalink: "/:categories/:title/"
 # ╰┻╯╰┻━━┻━━┻╯╰╯
 
 index:
-  research_img: http://bubais.top/kHz/assets/img/slide-bg-research.jpg
-  recent_publications_img: http://bubais.top/kHz/assets/img/recent-publications.jpg
-  photorederx_gif: http://bubais.top/kHz/assets/img/PR.gif
-  photorederx_img: http://bubais.top/kHz/assets/img/photorederx_bg-desktop.jpg
-  bio_img: http://bubais.top/kHz/assets/img/bio_bg.jpg
+  research_img: slide-bg-research.jpg
+  recent_publications_img: recent-publications.jpg
+  photorederx_gif: PR.gif
+  photorederx_img: photorederx_bg-desktop.jpg
+  bio_img: bio_bg.jpg
+  news_img: news_bg.jpg
 
 # 研究内容页面
 # ╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭╮
@@ -37,15 +38,15 @@ index:
 # ╰╯╰━━┻━━┻━━┻╯╰┻╯╰━━┻╯╰╯
 
 research:
-  bg_img: http://bubais.top/kHz/assets/img/research/research-intro-bg.jpg
+  bg_img: research/research-intro-bg.jpg
   img:
-    - url: http://bubais.top/kHz/assets/img/research/photoredox-re.svg
-    - url: http://bubais.top/kHz/assets/img/research/totalsynthesis-re.svg
-    - url: http://bubais.top/kHz/assets/img/research/organocatalysis-re.svg
-    - url: http://bubais.top/kHz/assets/img/research/e-protein-re.svg
+    - url: research/photoredox-re.svg
+    - url: research/totalsynthesis-re.svg
+    - url: research/organocatalysis-re.svg
+    - url: research/e-protein-re.svg
   photoredox:
-    slide1: http://bubais.top/kHz/assets/img/research/Slider1.svg
-    slide2: http://bubais.top/kHz/assets/img/research//Slider2.png
+    slide1: research/Slider1.svg
+    slide2: research/Slider2.png
 
 
 # 最近成果页面
@@ -62,17 +63,17 @@ recent_publications:
   publication1:
     person:
       - name: Dr. You Zhang
-        img: http://bubais.top/kHz/assets/img/team/zyou.jpg
+        img: team/zyou.jpg
       - name: Dr. Rufeng Xiao
-        img: http://bubais.top/kHz/assets/img/team/omar.jpg
+        img: team/omar.jpg
     journal: Journal of Cleaner Production
     article: Environmental impacts of reclamation and recycling processes of refrigerators using life cycle assessment (LCA) methods
     link: https://www.sciencedirect.com/science/article/pii/S0959652616305492
   publication2:
     person:
       - name: Prof. Zengwei Yuan
-        img: http://bubais.top/kHz/assets/img/team/yzw.jpg
-    
+        img: team/yzengwei.jpg
+
     journal: Journal of Cleaner Production
     article: Life cycle assessment of phosphorus use efficiency in crop production system of three crops in Chaohu Watershed, China
     link: https://www.sciencedirect.com/science/article/pii/S0959652616313014
@@ -87,8 +88,8 @@ recent_publications:
 
 contact:
   email: u_stars@foxmail.com
-  twitter:
-  linkedin:
+  weixin: https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzIyOTE5NTcwMA==&scene=124&#wechat_redirect
+  weibo:
   google:
     plus:
     analytics: UA-86467042-1

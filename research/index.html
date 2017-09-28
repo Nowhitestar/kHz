@@ -5,7 +5,7 @@ description:
 ---
 
 <main class="main main--interior">
-    <section class="research-intro" style="background-image: url('{{site.research.bg_img}}');">
+    <section class="research-intro" style="background-image: url('{{site.url}}/assets/img/{{site.research.bg_img}}');">
     <div class="wrapper wrapper--research wrapper--intro">
       <header class="research-intro__header transparent js-animate-fadeInOnScroll">
                   <h1 class="research-intro__heading">研究内容</h1>
@@ -22,7 +22,7 @@ description:
           {% for imgs in site.research.img %}
             <figure class="research-intro__circle u-circle-pre-animate js-circle-pre-animate transparent js-animate-fadeInOnScroll">
               <img class="js-svg-inject"
-              src="{{imgs.url}}">
+              src="{{site.url}}/assets/img/{{imgs.url}}">
             </figure>
           {% endfor %}
 
