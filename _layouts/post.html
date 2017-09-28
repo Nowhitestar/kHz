@@ -60,11 +60,11 @@
 
   </div> -->
   <section class="hero-parallax js-parallax"
-           style="background-image: url('{% if page.class == 'publications'%}{{ site.url }}/assets/img/Publications_Page.jpg{% endif %}');">
+           style="background-image: url('{{ site.url }}/assets/img/{% if page.class == 'publications'%}Publications_Page.jpg{% endif %}{% if page.class == 'team'%}unity.jpg{% endif %}{% if page.class == 'former_team' %}unity.jpg{% endif %}');">
 
     <div class="hero-parallax__content">
             <h1 class="hero-parallax__title hero-parallax__title--white">
-          {% if page.class == 'publications'%}研究成果{% endif %}      </h1>
+          {% if page.class == 'publications'%}研究成果{% endif %}{% if page.class == 'team' %}团队成员{% endif %}{% if page.class == 'former_team' %}以前成员{% endif %}      </h1>
                 <div class="divider divider--white"><span></span></div>
     </div>
 
@@ -76,15 +76,15 @@
 
         <div class="members-single__photo">
 
-                      <img src="{{sit.url}}/assets/img/{{ page.author_img }}" alt="{{ page.author }}" />
+                      <img src="{{sit.url}}/assets/img/{% if page.author_img %}{{ page.author_img }}{% endif %}{% if page.img %}{{ page.img }}{% endif %}" alt="" />
 
         </div>
 
                   <div class="members-single__email" style="text-align: center; margin-top: 2.125rem;">
             <a class="btn"
                 style="height: 2rem; line-height: 2rem;"
-                href="mailto:jjian@princeton.edu"
-                title="jjian@princeton.edu">
+                href="mailto:{{page.email}}"
+                title="">
               <span>Email</span>
             </a>
           </div>
@@ -93,7 +93,7 @@
       <div class="members-single__description">
 
         <h2>{{ page.title }}</h2>
-
+        <h4><span class="degree">{{page.subtitle}}</span></h4>
 
         <div class="divider divider--members"><span></span></div>
 

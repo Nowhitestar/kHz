@@ -35,12 +35,12 @@ description:
     <ul class="secondary-navbar__list">
       <li class="secondary-navbar__item
         secondary-navbar__item">
-        <a href="index.html">
+        <a href="{{site.url}}/current-members/index.html">
           Current members        </a>
       </li>
       <li class="secondary-navbar__item secondary-navbar__item--active
         ">
-        <a href="../former-members/index.html">
+        <a href="{{site.url}}/former-members/index.html">
           Former members        </a>
       </li>
 
@@ -64,21 +64,21 @@ description:
 
 
         <ul class="members__category-container">
-{% for post in site.posts %}{% if post.class == 'former-team' %}{% if post.identify == 'teacher' %}
+{% for post in site.posts %}{% if post.class == 'former_team' %}{% if post.identify == 'teacher' %}
                       <li class="members__item transparent js-animate-fadeInOnScroll">
               <div class="members__item-wrap">
 
                   <div class="members__item-icon">
-                    <img width="255" height="255" src="{{post.img}}" class="attachment-members-photo size-members-photo wp-post-image" alt="" srcset="{{post.img}} 255w, {{post.img}} 150w, {{post.img}} 125w, {{post.img}} 720w, {{post.img}} 339w" sizes="(max-width: 255px) 100vw, 255px" />                  </div>
+                    <img width="255" height="255" src="{{site.url}}/assets/img/{{post.img}}" class="attachment-members-photo size-members-photo wp-post-image" alt="" srcset="{{site.url}}/assets/img/{{post.img}} 255w, {{site.url}}/assets/img/{{post.img}} 150w, {{site.url}}/assets/img/{{post.img}} 125w, {{site.url}}/assets/img/{{post.img}} 720w, {{site.url}}/assets/img/{{post.img}} 339w" sizes="(max-width: 255px) 100vw, 255px" />                  </div>
 
-                  <img src="{{post.flag_img}}"
+                  <img src="{{site.url}}/assets/img/{{post.flag_img}}"
                        alt=""
                        class="members__item-flag"/>
 
                               </div>
               <h3>{{post.title}}</h3>
 
-                              <a href="../member/dr-xiaheng-zhang/index.html">view bio</a>
+                              <a href="{{post.url}}">view bio</a>
 
             </li>
 {% endif %}{% endif %}{% endfor %}
@@ -97,21 +97,21 @@ description:
 
 
       <ul class="members__category-container">
-{% for post in site.posts %}{% if post.class == 'former-team' %}{% if post.identify == 'doctor' %}
+{% for post in site.posts %}{% if post.class == 'former_team' %}{% if post.identify == 'doctor' %}
                     <li class="members__item transparent js-animate-fadeInOnScroll">
             <div class="members__item-wrap">
 
                 <div class="members__item-icon">
-                  <img width="255" height="255" src="{{post.img}}" class="attachment-members-photo size-members-photo wp-post-image" alt="" srcset="{{post.img}} 255w, {{post.img}} 150w, {{post.img}} 125w, {{post.img}} 720w, {{post.img}} 339w" sizes="(max-width: 255px) 100vw, 255px" />                  </div>
+                  <img width="255" height="255" src="{{site.url}}/assets/img/{{post.img}}" class="attachment-members-photo size-members-photo wp-post-image" alt="" srcset="{{site.url}}/assets/img/{{post.img}} 255w, {{site.url}}/assets/img/{{post.img}} 150w, {{site.url}}/assets/img/{{post.img}} 125w, {{site.url}}/assets/img/{{post.img}} 720w, {{site.url}}/assets/img/{{post.img}} 339w" sizes="(max-width: 255px) 100vw, 255px" />                  </div>
 
-                <img src="{{post.flag_img}}"
+                <img src="{{site.url}}/assets/img/{{post.flag_img}}"
                      alt=""
                      class="members__item-flag"/>
 
                             </div>
             <h3>{{post.title}}</h3>
 
-                            <a href="../member/dr-xiaheng-zhang/index.html">view bio</a>
+                            <a href="{{post.url}}">view bio</a>
 
           </li>
 {% endif %}{% endif %}{% endfor %}
@@ -130,21 +130,21 @@ description:
 
 
       <ul class="members__category-container">
-{% for post in site.posts %}{% if post.class == 'former-team' %}{% if post.identify == 'master' %}
+{% for post in site.posts %}{% if post.class == 'former_team' %}{% if post.identify == 'master' %}
                     <li class="members__item transparent js-animate-fadeInOnScroll">
             <div class="members__item-wrap">
 
                 <div class="members__item-icon">
-                  <img width="255" height="255" src="{{post.img}}" class="attachment-members-photo size-members-photo wp-post-image" alt="" srcset="{{post.img}} 255w, {{post.img}} 150w, {{post.img}} 125w, {{post.img}} 720w, {{post.img}} 339w" sizes="(max-width: 255px) 100vw, 255px" />                  </div>
+                  <img width="255" height="255" src="{{site.url}}/assets/img/{{post.img}}" class="attachment-members-photo size-members-photo wp-post-image" alt="" srcset="{{site.url}}/assets/img/{{post.img}} 255w, {{site.url}}/assets/img/{{post.img}} 150w, {{site.url}}/assets/img/{{post.img}} 125w, {{site.url}}/assets/img/{{post.img}} 720w, {{site.url}}/assets/img/{{post.img}} 339w" sizes="(max-width: 255px) 100vw, 255px" />                  </div>
 
-                <img src="{{post.flag_img}}"
+                <img src="{{site.url}}/assets/img/{{post.flag_img}}"
                      alt=""
                      class="members__item-flag"/>
 
                             </div>
             <h3>{{post.title}}</h3>
 
-                            <a href="../member/dr-xiaheng-zhang/index.html">view bio</a>
+                            <a href="{{post.url}}">view bio</a>
 
           </li>
 {% endif %}{% endif %}{% endfor %}
@@ -163,21 +163,21 @@ description:
 
 
       <ul class="members__category-container">
-{% for post in site.posts %}{% if post.class == 'former-team' %}{% if post.identify == 'undergraduate' %}
+{% for post in site.posts %}{% if post.class == 'former_team' %}{% if post.identify == 'undergraduate' %}
                     <li class="members__item transparent js-animate-fadeInOnScroll">
             <div class="members__item-wrap">
 
                 <div class="members__item-icon">
-                  <img width="255" height="255" src="{{post.img}}" class="attachment-members-photo size-members-photo wp-post-image" alt="" srcset="{{post.img}} 255w, {{post.img}} 150w, {{post.img}} 125w, {{post.img}} 720w, {{post.img}} 339w" sizes="(max-width: 255px) 100vw, 255px" />                  </div>
+                  <img width="255" height="255" src="{{site.url}}/assets/img/{{post.img}}" class="attachment-members-photo size-members-photo wp-post-image" alt="" srcset="{{site.url}}/assets/img/{{post.img}} 255w, {{site.url}}/assets/img/{{post.img}} 150w, {{site.url}}/assets/img/{{post.img}} 125w, {{site.url}}/assets/img/{{post.img}} 720w, {{site.url}}/assets/img/{{post.img}} 339w" sizes="(max-width: 255px) 100vw, 255px" />                  </div>
 
-                <img src="{{post.flag_img}}"
+                <img src="{{site.url}}/assets/img/{{post.flag_img}}"
                      alt=""
                      class="members__item-flag"/>
 
                             </div>
             <h3>{{post.title}}</h3>
 
-                            <a href="../member/dr-xiaheng-zhang/index.html">view bio</a>
+                            <a href="{{post.url}}">view bio</a>
 
           </li>
 {% endif %}{% endif %}{% endfor %}
@@ -196,21 +196,21 @@ description:
 
 
       <ul class="members__category-container">
-{% for post in site.posts %}{% if post.class == 'former-team' %}{% if post.identify == 'visits' %}
+{% for post in site.posts %}{% if post.class == 'former_team' %}{% if post.identify == 'visits' %}
                     <li class="members__item transparent js-animate-fadeInOnScroll">
             <div class="members__item-wrap">
 
                 <div class="members__item-icon">
-                  <img width="255" height="255" src="{{post.img}}" class="attachment-members-photo size-members-photo wp-post-image" alt="" srcset="{{post.img}} 255w, {{post.img}} 150w, {{post.img}} 125w, {{post.img}} 720w, {{post.img}} 339w" sizes="(max-width: 255px) 100vw, 255px" />                  </div>
+                  <img width="255" height="255" src="{{site.url}}/assets/img/{{post.img}}" class="attachment-members-photo size-members-photo wp-post-image" alt="" srcset="{{site.url}}/assets/img/{{post.img}} 255w, {{site.url}}/assets/img/{{post.img}} 150w, {{site.url}}/assets/img/{{post.img}} 125w, {{site.url}}/assets/img/{{post.img}} 720w, {{site.url}}/assets/img/{{post.img}} 339w" sizes="(max-width: 255px) 100vw, 255px" />                  </div>
 
-                <img src="{{post.flag_img}}"
+                <img src="{{site.url}}/assets/img/{{post.flag_img}}"
                      alt=""
                      class="members__item-flag"/>
 
                             </div>
             <h3>{{post.title}}</h3>
 
-                            <a href="../member/dr-xiaheng-zhang/index.html">view bio</a>
+                            <a href="{{post.url}}">view bio</a>
 
           </li>
 {% endif %}{% endif %}{% endfor %}

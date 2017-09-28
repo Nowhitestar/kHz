@@ -62,38 +62,20 @@ recent_publications:
   publication1:
     person:
       - name: Dr. You Zhang
-        img: http://bubais.top/kHz/assets/img/team/zy.jpg
+        img: http://bubais.top/kHz/assets/img/team/zyou.jpg
       - name: Dr. Rufeng Xiao
         img: http://bubais.top/kHz/assets/img/team/omar.jpg
     journal: Journal of Cleaner Production
     article: Environmental impacts of reclamation and recycling processes of refrigerators using life cycle assessment (LCA) methods
+    link: https://www.sciencedirect.com/science/article/pii/S0959652616305492
   publication2:
     person:
-      - name: Dr. Joseph Badillo
-        img: xx
-      - name: Jeff Lipshultz
-        img: xx
-    journal: Nature Chemistry, AOP
-    article: Catalyst-Controlled Oligomerization for the Collective Synthesis of Polypyrroloindoline Natural Products
-
-
-recent_news:
-  new1:
-    new:
-      - name: title
-        img: http://bubais.top/kHz/assets/img/team/zy.jpg
-      - name: Dr. Rufeng Xiao
-        img: http://bubais.top/kHz/assets/img/team/omar.jpg
-    title: Journal of Cleaner Production
-    abstract: Environmental impacts of reclamation and recycling processes of refrigerators using life cycle assessment (LCA) methods
-  publication2:
-    person:
-      - name: Dr. Joseph Badillo
-        img: xx
-      - name: Jeff Lipshultz
-        img: xx
-    journal: Nature Chemistry, AOP
-    article: Catalyst-Controlled Oligomerization for the Collective Synthesis of Polypyrroloindoline Natural Products
+      - name: Prof. Zengwei Yuan
+        img: http://bubais.top/kHz/assets/img/team/yzw.jpg
+    
+    journal: Journal of Cleaner Production
+    article: Life cycle assessment of phosphorus use efficiency in crop production system of three crops in Chaohu Watershed, China
+    link: https://www.sciencedirect.com/science/article/pii/S0959652616313014
 
 # 联系方式
 # ╱╱╱╱╱╱╱╱╱╱╭╮╱╱╱╱╱╱╱╭╮
