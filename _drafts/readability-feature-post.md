@@ -1,7 +1,7 @@
 ---
 title: Post with Large Feature Image and Text
 date: 2013-05-23 00:00:00 Z
-categories:
+classification:
 - articles
 tags:
 - sample-post

@@ -1,7 +1,7 @@
 ---
 title: Override Author Byline Test Post
 date: 2014-06-19 00:00:00 Z
-categories:
+classification:
 - articles
 tags:
 - sample-post

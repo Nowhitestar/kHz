@@ -11,5 +11,5 @@ content_img: team/yzengwei.jpg
 journal: JCP
 link: https://www.sciencedirect.com/science/article/pii/S0959652616305492
 excerpt:
-class: presentations
+classification: presentations
 ---

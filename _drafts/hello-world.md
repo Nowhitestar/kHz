@@ -1,7 +1,7 @@
 ---
 title: Hello World
 date: 2014-08-08 19:39:55 Z
-categories:
+classification:
 - blog
 layout: post
 modified: 2016-06-01 18:19:19 Z

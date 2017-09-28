@@ -8,5 +8,5 @@ author: 袁增伟,陈琴琴,刘欣
 series: 0472601
 author_img: team/yzengwei.jpg
 content_img:
-class: publications_software
+classification: publications_software
 ---

@@ -16,7 +16,7 @@ description:
 <section class="timeline">
   <div class="wrapper">
     <ul class="timeline__item-list">
-{% for post in site.posts %}{% if post.class == 'presentations' and post.author == '袁增伟' %}
+{% for post in site.posts %}{% if post.classification == 'presentations' and post.author == '袁增伟' %}
               <li class="timeline__item transparent js-animate-fadeInOnScroll">
           <time>{{post.year}}.{{post.month}}</time>
           <div>

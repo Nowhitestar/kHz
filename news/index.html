@@ -63,7 +63,7 @@ description:
 
         <ul class="publication__category-container">
 
-          {% for post in site.posts %}{% if post.class == 'news' %}{% if post.year == 2017 %}
+          {% for post in site.posts %}{% if post.classification == 'news' %}{% if post.year == 2017 %}
             <li class="publication transparent js-animate-fadeInOnScroll">
 
               <header class="publication__header-box clearfix">
@@ -123,7 +123,7 @@ description:
 
         <ul class="publication__category-container">
 
-          {% for post in site.posts %}{% if post.class == 'news' %}{% if post.year == 2016 %}
+          {% for post in site.posts %}{% if post.classification == 'news' %}{% if post.year == 2016 %}
             <li class="publication transparent js-animate-fadeInOnScroll">
 
               <header class="publication__header-box clearfix">

@@ -60,11 +60,11 @@
 
   </div> -->
   <section class="hero-parallax js-parallax"
-           style="background-image: url('{{ site.url }}/assets/img/{% if page.class == 'publications'%}Publications_Page.jpg{% endif %}{% if page.class == 'news'%}news.jpg{% endif %}{% if page.class == 'publications_book' %}book.jpg{% endif %}');">
+           style="background-image: url('{{ site.url }}/assets/img/{% if page.classification == 'publications'%}Publications_Page.jpg{% endif %}{% if page.classification == 'news'%}news.jpg{% endif %}{% if page.classification == 'publications_book' %}book.jpg{% endif %}');">
 
     <div class="hero-parallax__content">
             <h1 class="hero-parallax__title hero-parallax__title--white">
-          {% if page.class == 'publications'%}研究成果{% endif %}{% if page.class == 'news' %}新闻{% endif %}{% if page.class == 'publications_book' %}出版书籍{% endif %}</h1>
+          {% if page.classification == 'publications'%}研究成果{% endif %}{% if page.classification == 'news' %}新闻{% endif %}{% if page.classification == 'publications_book' %}出版书籍{% endif %}</h1>
                 <div class="divider divider--white"><span></span></div>
     </div>
 

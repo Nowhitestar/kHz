@@ -63,7 +63,7 @@ description:
 
         <ul class="publication__category-container">
 
-          {% for post in site.posts %}{% if post.class == 'publications' %}{% if post.year == 2017 %}
+          {% for post in site.posts %}{% if post.classification == 'publications' %}{% if post.year == 2017 %}
             <li class="publication transparent js-animate-fadeInOnScroll">
 
               <header class="publication__header-box clearfix">
@@ -128,7 +128,7 @@ description:
 
         <ul class="publication__category-container">
 
-          {% for post in site.posts %}{% if post.class == 'publications' %}{% if post.year == 2016 %}
+          {% for post in site.posts %}{% if post.classification == 'publications' %}{% if post.year == 2016 %}
             <li class="publication transparent js-animate-fadeInOnScroll">
 
               <header class="publication__header-box clearfix">
@@ -190,7 +190,7 @@ description:
 
           <ul class="publication__category-container">
 
-            {% for post in site.posts %}{% if post.class == 'publications' %}{% if post.year == 2015 %}
+            {% for post in site.posts %}{% if post.classification == 'publications' %}{% if post.year == 2015 %}
               <li class="publication transparent js-animate-fadeInOnScroll">
 
                 <header class="publication__header-box clearfix">
@@ -254,7 +254,7 @@ description:
 
             <ul class="publication__category-container">
 
-              {% for post in site.posts %}{% if post.class == 'publications' %}{% if post.year == 2014 %}
+              {% for post in site.posts %}{% if post.classification == 'publications' %}{% if post.year == 2014 %}
                 <li class="publication transparent js-animate-fadeInOnScroll">
 
                   <header class="publication__header-box clearfix">
@@ -317,7 +317,7 @@ description:
 
               <ul class="publication__category-container">
 
-                {% for post in site.posts %}{% if post.class == 'publications' %}{% if post.year == 2013 %}
+                {% for post in site.posts %}{% if post.classification == 'publications' %}{% if post.year == 2013 %}
                   <li class="publication transparent js-animate-fadeInOnScroll">
 
                     <header class="publication__header-box clearfix">
@@ -381,7 +381,7 @@ description:
 
                 <ul class="publication__category-container">
 
-                  {% for post in site.posts %}{% if post.class == 'publications' %}{% if post.year == 2012 %}
+                  {% for post in site.posts %}{% if post.classification == 'publications' %}{% if post.year == 2012 %}
                     <li class="publication transparent js-animate-fadeInOnScroll">
 
                       <header class="publication__header-box clearfix">
@@ -445,7 +445,7 @@ description:
 
                   <ul class="publication__category-container">
 
-                    {% for post in site.posts %}{% if post.class == 'publications' %}{% if post.year == 2011 %}
+                    {% for post in site.posts %}{% if post.classification == 'publications' %}{% if post.year == 2011 %}
                       <li class="publication transparent js-animate-fadeInOnScroll">
 
                         <header class="publication__header-box clearfix">
@@ -509,7 +509,7 @@ description:
 
                     <ul class="publication__category-container">
 
-                      {% for post in site.posts %}{% if post.class == 'publications' %}{% if post.year == 2010 %}
+                      {% for post in site.posts %}{% if post.classification == 'publications' %}{% if post.year == 2010 %}
                         <li class="publication transparent js-animate-fadeInOnScroll">
 
                           <header class="publication__header-box clearfix">
@@ -576,7 +576,7 @@ description:
 
           <ul class="publication__category-container">
 
-            {% for post in site.posts %}{% if post.class == 'publications' %}{% if post.year == 2009 %}
+            {% for post in site.posts %}{% if post.classification == 'publications' %}{% if post.year == 2009 %}
               <li class="publication transparent js-animate-fadeInOnScroll">
 
                 <header class="publication__header-box clearfix">
@@ -641,7 +641,7 @@ description:
 
     <ul class="numbered-list__list clearfix">
 
-{% for post in site.posts %}{% if post.class == 'publications_book' %}
+{% for post in site.posts %}{% if post.classification == 'publications_book' %}
           <li class="numbered-list__list-item" >
             <div class="numbered-list__content" data-list-number="{{post.number}}" >
               <a href="{{post.url}}" style="color: black; text-decoration:none;">{{post.author}}. {{post.title}}[M]. {{post.press_loc}}: {{post.press}}, {{post.year}}.</a></div>
@@ -662,7 +662,7 @@ description:
 
     <ul class="numbered-list__list clearfix">
 
-{% for post in site.posts %}{% if post.class == 'publications_software' %}
+{% for post in site.posts %}{% if post.classification == 'publications_software' %}
           <li class="numbered-list__list-item" >
             <div class="numbered-list__content" data-list-number="{{post.number}}" >
               {{post.author}}. {{post.title}}. 软件著作权, 软著登字第{{post.series}}号.</div>

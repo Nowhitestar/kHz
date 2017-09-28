@@ -1,7 +1,7 @@
 ---
 title: Sample Post
 date: 2011-03-10 00:00:00 Z
-categories:
+classification:
 - articles
 tags:
 - sample-post

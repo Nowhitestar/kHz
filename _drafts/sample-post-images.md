@@ -1,7 +1,7 @@
 ---
 title: A Post with Images
 date: 2013-05-22 00:00:00 Z
-categories:
+classification:
 - articles
 tags:
 - sample-post

@@ -1,7 +1,7 @@
 ---
 title: MathJax Example
 date: 2015-08-10 12:08:50 Z
-categories:
+classification:
 - blog
 layout: post
 modified: 

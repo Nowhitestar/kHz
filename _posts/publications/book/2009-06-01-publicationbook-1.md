@@ -9,7 +9,7 @@ author_img: team/yzengwei.jpg
 content_img: publications/book1.jpg
 press: 科学出版社
 press_loc: 北京
-class: publications_book
+classification: publications_book
 ---
 
 ### 1 图书信息

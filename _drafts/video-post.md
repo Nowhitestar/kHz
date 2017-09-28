@@ -1,7 +1,7 @@
 ---
 title: A Post with a Video
 date: 2013-06-25 00:00:00 Z
-categories:
+classification:
 - articles
 tags:
 - sample-post

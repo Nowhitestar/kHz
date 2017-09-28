@@ -9,7 +9,7 @@ content_img: publications/wuhuijun2016_TOC.jpg
 journal: JCP
 link: https://www.sciencedirect.com/science/article/pii/S0959652616313014
 excerpt: This study presented a life cycle assessment of the environmental impacts of the production of three crops (rice, wheat, and maize) in the Chaohu Watershed of China.
-class: publications
+classification: publications
 ---
 
 Abstract

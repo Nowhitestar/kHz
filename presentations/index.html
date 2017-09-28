@@ -54,7 +54,7 @@ description:
             <div class="divider divider--members_former transparent js-animate-fadeInOnScroll"><span></span></div>
 
             <ul class="presentations__list flex">
-{% for post in site.posts %}{% if post.class == 'presentations' %}{% if post.year == 2017 %}
+{% for post in site.posts %}{% if post.classification == 'presentations' %}{% if post.year == 2017 %}
                 <li class="presentation flex transparent js-animate-fadeInOnScroll">
 
                                                             <div class="presentation__author-ico">
@@ -91,7 +91,7 @@ description:
             <div class="divider divider--members_former transparent js-animate-fadeInOnScroll"><span></span></div>
 
             <ul class="presentations__list flex">
-  {% for post in site.posts %}{% if post.class == 'presentations' %}{% if post.year == 2016 %}
+  {% for post in site.posts %}{% if post.classification == 'presentations' %}{% if post.year == 2016 %}
                 <li class="presentation flex transparent js-animate-fadeInOnScroll">
 
                                                             <div class="presentation__author-ico">

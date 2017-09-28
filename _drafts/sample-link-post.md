@@ -1,7 +1,7 @@
 ---
 title: Sample Link Post
 date: 2013-08-12 00:00:00 Z
-categories:
+classification:
 - articles
 tags:
 - sample-post
